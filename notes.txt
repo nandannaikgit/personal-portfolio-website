@@ -1,0 +1,23 @@
+personal portfolio
+---------
+online resume of yours
+which will help you to define yourself online.
+
+
+ main folder/
+    |
+    |-->index.html-- main code file
+    |--->css/
+            |-->style.css
+    |--->images/
+    
+    |--->js/
+            |-->script.js
+
+====================================
+Intro
+About me
+Skills
+projects
+experience
+Contact form
