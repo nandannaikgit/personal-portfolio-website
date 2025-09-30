@@ -7,9 +7,31 @@ body{
     font-weight: bold;
 }
 section{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-/* header{
-    background: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6));
-} */
+ header{
+    background: linear-gradient(rgba(132, 125, 125, 0.6),rgba(0,0,0,0.6));
+}
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+footer{
+    background-color: rgb(33, 32, 32);
+}
+.skill-circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(222, 170, 72);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
